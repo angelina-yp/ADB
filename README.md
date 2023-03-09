@@ -1,11 +1,11 @@
 # ADB
 
  Комманды сделанные на Windows10
-
+```sql
 1. Отобразить подключённый девайс в консоли.
 
 ./adb devices
-
+```
  2. Вывести адрес приложения todolist в системе Android
 
 ./adb shell pm list packages | grep todolist
